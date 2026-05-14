@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PulseFit - Smart Fitness Watch for tracking your health and workouts">
+  <title>PulseFit | Smart Fitness Watch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header id="header">
+    <div class="container nav-bar">
+      <div class="logo">⌚ PulseFit</div>
+
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#newsletter">Subscribe</a></li>
+        </ul>
+      </nav>
+
+      <!-- hamburger button for mobile -->
+      <button id="menu-btn" class="menu-btn" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="tag">New Launch 🚀</p>
+        <h1>Track Your Fitness<br>Like Never Before</h1>
+        <p class="subtitle">
+          PulseFit watches your heart rate, steps, sleep, and workouts
+          — all from your wrist. 14-day battery. Water resistant. Ready for anything.
+        </p>
+        <div class="hero-buttons">
+          <a href="#pricing" class="btn btn-primary">Pre-Order Now →</a>
+          <a href="#features" class="btn btn-secondary">See Features</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="watch-hero.png" alt="PulseFit Smart Watch" id="watch-img">
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2 class="section-title">What Makes PulseFit Special</h2>
+      <p class="section-subtitle">Everything you need to stay on top of your fitness goals.</p>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">❤️</div>
+          <h3>Heart Rate Monitor</h3>
+          <p>Tracks your heart rate 24/7. Alerts you when something looks unusual.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📍</div>
+          <h3>Built-in GPS</h3>
+          <p>Map your runs and bike rides without carrying your phone along.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">💧</div>
+          <h3>Water Resistant</h3>
+          <p>Swim, shower, or get caught in the rain — your watch can handle it.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🔋</div>
+          <h3>14-Day Battery</h3>
+          <p>Charge it once and forget about it for two whole weeks.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🌙</div>
+          <h3>Sleep Tracking</h3>
+          <p>Monitors your sleep stages and helps you wake up at the right time.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Smart Notifications</h3>
+          <p>Get calls, messages, and app alerts right on your wrist.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2 class="section-title">Pick Your Plan</h2>
+      <p class="section-subtitle">Free shipping on all orders. 30-day return policy.</p>
+
+      <div class="pricing-grid">
+        <!-- Lite Plan -->
+        <div class="price-card">
+          <h3>PulseFit Lite</h3>
+          <p class="price-tag">$149</p>
+          <p class="price-desc">Great for everyday use</p>
+          <ul>
+            <li>✔ Heart Rate Tracking</li>
+            <li>✔ Step Counter</li>
+            <li>✔ Basic Sleep Tracking</li>
+            <li>✔ 7-Day Battery</li>
+            <li>✔ Water Resistant (IP67)</li>
+            <li class="not-included">✘ No GPS</li>
+            <li class="not-included">✘ No AMOLED Display</li>
+          </ul>
+          <a href="#newsletter" class="btn btn-secondary">Choose Lite</a>
+        </div>
+
+        <!-- Pro Plan (popular) -->
+        <div class="price-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <h3>PulseFit Pro</h3>
+          <p class="price-tag">$249</p>
+          <p class="price-desc">For serious fitness lovers</p>
+          <ul>
+            <li>✔ Heart Rate + SpO2</li>
+            <li>✔ Activity Tracking</li>
+            <li>✔ Advanced Sleep Analysis</li>
+            <li>✔ 14-Day Battery</li>
+            <li>✔ Water Resistant (IP68)</li>
+            <li>✔ Built-in GPS</li>
+            <li>✔ AMOLED Display</li>
+          </ul>
+          <a href="#newsletter" class="btn btn-primary">Choose Pro →</a>
+        </div>
+
+        <!-- Ultra Plan -->
+        <div class="price-card">
+          <h3>PulseFit Ultra</h3>
+          <p class="price-tag">$349</p>
+          <p class="price-desc">The complete package</p>
+          <ul>
+            <li>✔ Everything in Pro</li>
+            <li>✔ ECG Monitoring</li>
+            <li>✔ Titanium Body</li>
+            <li>✔ Sapphire Glass</li>
+            <li>✔ Offline Maps</li>
+            <li>✔ Music Storage</li>
+            <li>✔ 1 Year Warranty</li>
+          </ul>
+          <a href="#newsletter" class="btn btn-secondary">Choose Ultra</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials / Reviews Section -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <h2 class="section-title">What Our Users Say</h2>
+      <p class="section-subtitle">Real feedback from real people.</p>
+
+      <!-- slider wrapper -->
+      <div class="slider" id="slider">
+        <div class="slides" id="slides">
+
+          <div class="review-card">
+            <p class="stars">⭐⭐⭐⭐⭐</p>
+            <p class="review-text">
+              "This watch changed my running game. The heart rate monitor is super accurate
+              and the battery lasts forever. Worth every penny!"
+            </p>
+            <p class="reviewer"><strong>Marcus R.</strong> — Marathon Runner</p>
+          </div>
+
+          <div class="review-card">
+            <p class="stars">⭐⭐⭐⭐⭐</p>
+            <p class="review-text">
+              "I've tried Apple Watch, Fitbit, and Garmin. PulseFit Pro gives me the best
+              value. Sleep tracking is incredibly detailed."
+            </p>
+            <p class="reviewer"><strong>Sarah L.</strong> — CrossFit Coach</p>
+          </div>
+
+          <div class="review-card">
+            <p class="stars">⭐⭐⭐⭐⭐</p>
+            <p class="review-text">
+              "Wore it swimming for weeks — zero issues. The swim mode detects my stroke
+              type automatically. Really impressed!"
+            </p>
+            <p class="reviewer"><strong>James K.</strong> — Competitive Swimmer</p>
+          </div>
+
+          <div class="review-card">
+            <p class="stars">⭐⭐⭐⭐⭐</p>
+            <p class="review-text">
+              "As a yoga instructor, I love the breathing exercises feature. The always-on
+              display looks great and my students always ask about it."
+            </p>
+            <p class="reviewer"><strong>Aisha P.</strong> — Yoga Instructor</p>
+          </div>
+
+        </div>
+
+        <!-- slider buttons -->
+        <div class="slider-controls">
+          <button id="prev-btn" class="slider-btn" aria-label="Previous review">‹</button>
+          <div id="dots" class="dots"></div>
+          <button id="next-btn" class="slider-btn" aria-label="Next review">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter / Email Signup -->
+  <section id="newsletter" class="newsletter">
+    <div class="container">
+      <div class="newsletter-box">
+        <h2>Get Early Access & Deals</h2>
+        <p>Join 50,000+ fitness fans. Be the first to know about new launches and discounts.</p>
+
+        <form id="signup-form" novalidate>
+          <div class="form-row">
+            <input
+              type="email"
+              id="email-input"
+              placeholder="you@example.com"
+              aria-label="Your email"
+              required
+            >
+            <button type="submit" class="btn btn-primary" id="submit-btn">Subscribe →</button>
+          </div>
+          <p id="error-msg" class="error-msg"></p>
+          <p id="success-msg" class="success-msg"></p>
+        </form>
+
+        <p class="small-text">🔒 No spam, ever. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <h4>⌚ PulseFit</h4>
+        <p>Making fitness tracking simple and affordable for everyone.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#">Specifications</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Warranty</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 PulseFit. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
